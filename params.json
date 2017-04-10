@@ -1,0 +1,11 @@
+{
+    "searcher": {
+        "indexfile": "./public/supply/102_shrec2012png_ori8_indexb",
+        "filelist": "./public/supply/102_shrec2012png_filelist",
+        "vocabulary": "./public/supply/vocabulary_ori8",
+        "rootdir": "./public/supply/102_shrec2012png",
+        "modeldir": "./public/supply/models",
+        "results_num": "30",
+        "views_num": "102"
+    }
+}

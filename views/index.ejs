@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sketch Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='/css/style.css' />
+</head>
+<body>
+    <img id="show-gallery" src="img/pull.png" alt="草图库下拉杆">
+    <div class="gallery">
+        <!-- <img src="img/gallery-test.png" alt=""> -->
+        <div id="sketch-view-map"></div>
+    </div>
+    <!-- <button class="clear-btn">清空画布</button> -->
+    <div id="show-obj"></div>
+
+    <div class="history-bar" style="display: none">
+        <ul class="img-wrap">
+        </ul>
+    </div>
+    <div class="history-cva">
+        <ul class="img-wrap">
+            
+        </ul>
+    </div>
+    <ul class="show-line-pic">
+        <li><img src="img/empty.png" alt=""></li>
+        <li><img src="img/empty.png" alt=""></li>
+        <li><img src="img/empty.png" alt=""></li>
+        <li><img src="img/empty.png" alt=""></li>
+        <li><img src="img/empty.png" alt=""></li>
+        <li><img src="img/empty.png" alt=""></li>
+        <li><img src="img/empty.png" alt=""></li>
+    </ul>
+     <div class="main">
+        <div class="wrapper">
+            <canvas id="canvas1"></canvas>
+            <canvas id="canvas2"></canvas>
+            <div class="result">
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+                <div class="box"><img src="img/empty.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <img class="img-gather" src="img/search-icon.png" alt="">
+    </div>
+
+    <div class="loading">
+        <img src="img/loading.gif" alt="">
+    </div>
+
+    <script data-main="/js/app.js" src="/js/lib/require.js"></script>
+</body>
+</html>

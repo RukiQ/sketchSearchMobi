@@ -1,0 +1,11 @@
+{
+    "searcher": {
+        "indexfile": "E:/graduate_work/sketchSearchDemo/public/supplies/102_shrec2012png_ori8_indexb",
+        "filelist": "E:/graduate_work/sketchSearchDemo/public/supplies/102_shrec2012png_filelist",
+        "vocabulary": "E:/graduate_work/sketchSearchDemo/public/supplies/vocabulary_ori8",
+        "rootdir": "E:/graduate_work/sketchSearchDemo/public/supplies/102_shrec2012png",
+        "modeldir": "E:/graduate_work/sketchSearchDemo/public/supplies/models",
+        "results_num": "30",
+        "views_num": "102"
+    }
+}
