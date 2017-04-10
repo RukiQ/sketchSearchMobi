@@ -1,25 +1,33 @@
 {
-  "name": "blog",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "supervisor ./bin/www"
-  },
-  "dependencies": {
-    "body-parser": "~1.15.2",
-    "cookie-parser": "~1.4.3",
-    "d3": "^4.7.1",
-    "d3-hexbin": "^0.2.1",
-    "debug": "~2.2.0",
-    "ejs": "~2.5.2",
-    "express": "~4.14.0",
-    "mongodb": "*",
-    "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0"
-  },
-  "devDependencies": {
-    "express-formidable": "^1.0.0",
-    "ffi": "^2.2.0",
-    "formidable": "^1.0.17"
-  }
+    "name": "blog",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "supervisor ./bin/www"
+    },
+    "dependencies": {
+        "body-parser": "~1.15.2",
+        "cookie-parser": "~1.4.3",
+        "d3": "^4.7.1",
+        "d3-hexbin": "^0.2.1",
+        "debug": "~2.2.0",
+        "ejs": "~2.5.2",
+        "express": "~4.14.0",
+        "mongodb": "*",
+        "morgan": "~1.7.0",
+        "serve-favicon": "~2.3.0"
+    },
+    "devDependencies": {
+        "express-formidable": "^1.0.0",
+        "ffi": "^2.2.0",
+        "formidable": "^1.0.17"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RukiQ/sketchSearchMobi.git"
+    },
+    "bugs": {
+        "url": "https://github.com/RukiQ/sketchSearchMobi/issues"
+    },
+    "homepage": "https://github.com/RukiQ/sketchSearchMobi/blob/master/README.md"
 }

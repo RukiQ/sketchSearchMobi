@@ -17,6 +17,11 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 
 - `Node.js`：[官网](https://nodejs.org/zh-cn/)
 - SDK：opencv、boost（需要进行编译并进行环境配置，补充。。。）
+- 安装 node-gyp 及 Phton 环境：[Node调用C++（dll）](http://www.cnblogs.com/Ruth92/p/6209953.html)、[Python官网](https://www.python.org/)
+
+		npm install node-gyp -g
+    
+    > 注意： 根据 node-gyp 的GitHub显示，请务必保证你的 python 版本介于 2.5.0 和 3.0.0 之间。
 
 ### 目录结构
 
@@ -74,3 +79,11 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 #### `npm start`：
 
 在浏览器输入：`localhost:3000`，并切换至移动模式，则可使用该应用。
+
+#### 问题解决
+
+`npm install` 时遇到的问题：
+
+	if not defined npm_config_node_gyp
+
+请参考 [Node调用C++（dll）](http://www.cnblogs.com/Ruth92/p/6209953.html)，需要配置
