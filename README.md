@@ -16,7 +16,13 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 ### 环境配置
 
 - `Node.js`：[官网](https://nodejs.org/zh-cn/)
-- SDK：opencv、boost（需要进行编译并进行环境配置，补充。。。）
+- SDK（opencv、boost）：[下载地址](http://pan.baidu.com/s/1slwbV1V)，密码 w5d2
+
+	把 SDK 放到目录 `E:\sketchsearch-dll\SDK` 下（任何目录均可），然后配置一下环境变量，即创建一个新的环境变量`SKETCHSEARCH_SDK`，将目录路径作为值添加：
+
+	![配置SDK环境变量](http://thumbnail0.baidupcs.com/thumbnail/c2c680c40db42e592ef8191def3c4f6a?fid=3809523199-250528-706455484216696&time=1492498800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Xt7osgVMd8rrXGjnfbf%2FLDbfuHU%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2496701322833333313&dp-callid=0&size=c710_u400&quality=100)
+	
+
 - 安装 node-gyp 及 Phton 环境：[Node调用C++（dll）](http://www.cnblogs.com/Ruth92/p/6209953.html)、[Python官网](https://www.python.org/)
 
 		npm install node-gyp -g
@@ -51,7 +57,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 			- listener.js ----------------- 事件监听器
 		- /lib
 		- app.js
-	- /supply（[百度云](http://pan.baidu.com/s/1c2H0G3A)）
+	- /supply（[百度云]()）
 		- 102_shrec2012png ---------------- 线画图**（从百度云上下载）**
 		- models -------------------------- off 格式模型**（从百度云上下载）**
 - /router
@@ -68,7 +74,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 - imagesearcherdll.dll
 - imagesercherdll.lib
 
-> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘](http://pan.baidu.com/s/1c2H0G3A)上进行下载后放置到对应目录中。
+> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘]()上进行下载后放置到对应目录中。
 
 ### 启动服务
 
