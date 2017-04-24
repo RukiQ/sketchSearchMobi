@@ -20,7 +20,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 
 	把 SDK 放到目录 `E:\sketchsearch-dll\SDK` 下（任何目录均可），然后配置一下环境变量，即创建一个新的环境变量`SKETCHSEARCH_SDK`，将目录路径作为值添加：
 
-	![配置SDK环境变量](http://thumbnail0.baidupcs.com/thumbnail/c2c680c40db42e592ef8191def3c4f6a?fid=3809523199-250528-706455484216696&time=1492498800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Xt7osgVMd8rrXGjnfbf%2FLDbfuHU%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2496701322833333313&dp-callid=0&size=c710_u400&quality=100)
+	![配置SDK环境变量](http://i2.muimg.com/1949/0db42e592ef8191d.png)
 	
 
 - 安装 node-gyp 及 Phton 环境：[Node调用C++（dll）](http://www.cnblogs.com/Ruth92/p/6209953.html)、[Python官网](https://www.python.org/)
