@@ -58,8 +58,9 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 		- /lib
 		- app.js
 	- /supply（[百度云]()）
-		- 102_shrec2012png ---------------- 线画图**（从百度云上下载）**
-		- models -------------------------- off 格式模型**（从百度云上下载）**
+		- /102_shrec2012png ---------------- 线画图**（从百度云上下载）**
+		- /models -------------------------- obj 格式模型**（从百度云上下载）**
+		- params.json ---------------------- 参数配置
 - /router
 	- index.js ---------------------------- 页面路由，读取txt文件中的路径，并返回
 	- result.txt
