@@ -37,9 +37,9 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 - /public
 	- /css -------------------------------- css样式文件
 	- /img -------------------------------- 图片文件（[百度云](http://pan.baidu.com/s/1c2H0G3A)）
-		- /traindata-nobg ----------------- 透明背景的训练数据图片**（从百度云上下载）**
-		- /traindata-nobg-small ----------- 透明背景的训练数据小图片**（从百度云上下载）**
-		- /traindata-small ---------------- 非透明背景的训练数据小图片**（从百度云上下载）**
+		- /traindata-nobg ----------------- 透明背景的训练数据图片 **（从百度云上下载）**
+		- /traindata-nobg-small ----------- 透明背景的训练数据小图片 **（从百度云上下载）**
+		- /traindata-small ---------------- 非透明背景的训练数据小图片 **（从百度云上下载）**
 	- /js
 		- /app
 			- main.js --------------------- 主文件
@@ -58,8 +58,8 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 		- /lib
 		- app.js
 	- /supply（[百度云]()）
-		- /102_shrec2012png ---------------- 线画图**（从百度云上下载）**
-		- /models -------------------------- obj 格式模型**（从百度云上下载）**
+		- /102_shrec2012png ---------------- 线画图 **（从百度云上下载）**
+		- /models -------------------------- obj 格式模型 **（从百度云上下载）**
 		- params.json ---------------------- 参数配置
 - /router
 	- index.js ---------------------------- 页面路由，读取txt文件中的路径，并返回
