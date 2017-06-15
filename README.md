@@ -36,7 +36,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 - /include -------------------------------- 特征提取算法所需的相关库文件，链接库需要
 - /public
 	- /css -------------------------------- css样式文件
-	- /img -------------------------------- 图片文件（[百度云]()）
+	- /img -------------------------------- 图片文件（[img百度云链接](http://pan.baidu.com/s/1geJPBEV)）
 		- /traindata-nobg ----------------- 透明背景的训练数据图片 **（从百度云上下载）**
 		- /traindata-nobg-small ----------- 透明背景的训练数据小图片 **（从百度云上下载）**
 		- /traindata-small ---------------- 非透明背景的训练数据小图片 **（从百度云上下载）**
@@ -57,7 +57,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 			- listener.js ----------------- 事件监听器
 		- /lib
 		- app.js
-	- /supply（[百度云]()）
+	- /supply
 		- /102_shrec2012png ---------------- 线画图 **（从百度云上下载）**
 		- /models -------------------------- obj 格式模型 **（从百度云上下载）**
 		- params.json ---------------------- 参数配置
