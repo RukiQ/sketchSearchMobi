@@ -75,7 +75,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 - imagesearcherdll.dll
 - imagesercherdll.lib
 
-> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘]()上进行下载后放置到对应目录中。
+> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘]上进行下载后放置到对应目录中。
 
 ### 启动服务
 
