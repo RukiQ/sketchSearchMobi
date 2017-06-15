@@ -20,7 +20,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 
 	把 SDK 放到目录 `E:\sketchsearch-dll\SDK` 下（任何目录均可），然后配置一下环境变量，即创建一个新的环境变量`SKETCHSEARCH_SDK`，将目录路径作为值添加：
 
-	![配置SDK环境变量](http://i2.muimg.com/1949/0db42e592ef8191d.png)
+	![配置SDK环境变量](https://github.com/RukiQ/sketchSearchLeap/blob/master/public/img/%E9%85%8D%E7%BD%AESDK%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.png?raw=true)
 	
 
 - 安装 node-gyp 及 Phton 环境：[Node调用C++（dll）](http://www.cnblogs.com/Ruth92/p/6209953.html)、[Python官网](https://www.python.org/)
@@ -36,7 +36,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 - /include -------------------------------- 特征提取算法所需的相关库文件，链接库需要
 - /public
 	- /css -------------------------------- css样式文件
-	- /img -------------------------------- 图片文件（[百度云](http://pan.baidu.com/s/1c2H0G3A)）
+	- /img -------------------------------- 图片文件
 		- /traindata-nobg ----------------- 透明背景的训练数据图片 **（从百度云上下载）**
 		- /traindata-nobg-small ----------- 透明背景的训练数据小图片 **（从百度云上下载）**
 		- /traindata-small ---------------- 非透明背景的训练数据小图片 **（从百度云上下载）**
@@ -75,7 +75,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 - imagesearcherdll.dll
 - imagesercherdll.lib
 
-> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘](http://pan.baidu.com/s/1c2H0G3A)上进行下载后放置到对应目录中。
+> 注意：静态资源中 `/img` 和 `/supply` 中的图片和模型数据需从[百度云盘]()上进行下载后放置到对应目录中。
 
 ### 启动服务
 
