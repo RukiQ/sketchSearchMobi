@@ -53,7 +53,7 @@ A Prototype System of Sketch-Based 3D Model Retrieval Based on Multi-Touch
 			- sketchGallery.js ------------ 草图库可视化
 			- data.js --------------------- 草图可视化数据
 		- /common
-			- global.js ------------------- 全局对象
+			- global.js ------------------- 全局对象（可调整至/app文件夹）
 			- listener.js ----------------- 事件监听器
 		- /lib
 		- app.js
